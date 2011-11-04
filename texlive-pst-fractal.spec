@@ -53,6 +53,7 @@ distribution.
 %doc %{_texmfdistdir}/doc/generic/pst-fractal/pst-fractal-doc.bib
 %doc %{_texmfdistdir}/doc/generic/pst-fractal/pst-fractal-doc.pdf
 %doc %{_texmfdistdir}/doc/generic/pst-fractal/pst-fractal-doc.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -63,3 +64,5 @@ distribution.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar dvips tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
