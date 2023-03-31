@@ -1,6 +1,6 @@
 Name:		texlive-pst-fractal
 Version:	64714
-Release:	1
+Release:	2
 Summary:	Draw fractal sets using PSTricks
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-fractal
