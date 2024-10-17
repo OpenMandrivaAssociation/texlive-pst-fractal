@@ -3,7 +3,7 @@ Version:	64714
 Release:	2
 Summary:	Draw fractal sets using PSTricks
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-fractal
+URL:		https://www.ctan.org/tex-archive/graphics/pstricks/contrib/pst-fractal
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-fractal.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/pst-fractal.doc.r%{version}.tar.xz
